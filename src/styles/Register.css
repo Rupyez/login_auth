@@ -1,0 +1,138 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+}
+
+.container{
+    position: absolute;
+    max-width: 800px;
+    height: 500px;
+    border-radius: 25px !important;
+    margin: auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.myRightctn{
+position: relative;
+background-image: linear-gradient(45deg, #f046ff, #9b00e8);
+border-radius: 25px;
+padding: 25px;
+height: 100%;
+color: rgb(192, 192, 192);
+font-size: 12px;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+.myRightctn h4{
+    color: #fff;
+    font-size: 44px;
+}
+.myLeftCtn{
+    position: relative;
+    background: rgb(248, 247, 247);
+    border-radius: 25px;
+    padding: 25px;
+    height: 100%;
+    font-size: 12px;
+  padding-left: 50px;
+    
+    }
+
+    .myLeftCtn h4{
+        color: blueviolet;
+        font-size: 24px;
+        font-weight: 700;
+        margin-bottom: 20px;
+    }
+
+    .row{
+        height: 100%;
+    }
+
+    .card{
+        position:relative;
+        background: #fff;
+        height: 100%;
+        border-radius: 25px !important;
+        -webkit-box-shadow: 0px 10px 40px -10px rgba(0, 0, 0, 0.7);
+        -moz-box-shaodw: 0px 10px 40px -10px rgba(0, 0, 0, 0.7);
+        box-shadow: 0px 10px 40px -10px rgba(0, 0, 0, 0.7);;
+    }
+
+    .box{
+        position: relative;
+        margin: 20px;
+        margin-bottom: 100px;
+    }
+
+    .myLeftCtn .myInput{
+        width:230px;
+        border-radius: 25px;
+        padding: 10px;
+        padding-left: 50px;
+        border: none;
+        margin-bottom: 12px;
+        -webkit-box-shadow: 0px 10px 40px -10px rgba(0, 0, 0, 0.7);
+        -moz-box-shaodw: 0px 10px 40px -10px rgba(0, 0, 0, 0.7);
+        box-shadow: 0px 10px 40px -10px rgba(0, 0, 0, 0.7);
+    }
+
+    .myLeftCtn .myInput:focus{
+    outline: none;
+    }
+   
+    .myForm{
+        position: relative;
+        margin-top: 50px;
+    }
+
+    .form-group .myCheckbox{
+        margin-right:10px;
+        font-size: 3rem !important;
+        margin-top: 10px;
+    }
+
+.check_remember{
+    font-size: 16px;
+    color:#c85bff;
+    font-weight: 500;
+}
+
+    .butt_out{
+        background-image: linear-gradient(45deg, #f046ff, #9b00e8);
+        color: #fff;
+        width: 230px;
+        border-radius: 25px;
+        border: none;
+        padding: 10px;
+        height: 100%;
+        color: rgb(192, 192, 192);
+        font-size: 16px;
+
+        -webkit-box-shadow: 0px 10px 40px -10px rgba(0, 0, 0, 0.7);
+        -moz-box-shaodw: 0px 10px 40px -10px rgba(0, 0, 0, 0.7);
+        box-shadow: 0px 10px 40px -10px rgba(0, 0, 0, 0.7);
+    }
+
+    .butt_out:hover{
+       background: linear-gradient(45deg, #c85bff, #b726ff);
+    }
+
+
+    input[type='file']{
+        display: none;
+      }

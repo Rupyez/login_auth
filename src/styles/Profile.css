@@ -1,0 +1,96 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+}
+
+.container-fluid{
+    position: absolute;
+    max-width: 850px;
+    height: 500px;
+    border-radius: 25px !important;
+    margin: auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.myLeftCtn{
+    position: relative;
+    background: rgb(248, 247, 247);
+    border-radius: 25px;
+    padding: 25px;
+    height: 100%;
+    font-size: 12px;
+  padding-left: 50px;
+    
+    }
+
+    .myLeftCtn h4{
+        color: blueviolet;
+        font-size: 24px;
+        font-weight: 700;
+        margin-bottom: 20px;
+    }
+
+    .row{
+        height: 100%;
+    }
+
+    .card{
+        position:relative;
+        background: #fff;
+        height: 100%;
+        border-radius: 25px !important;
+        -webkit-box-shadow: 0px 10px 40px -10px rgba(0, 0, 0, 0.7);
+        -moz-box-shaodw: 0px 10px 40px -10px rgba(0, 0, 0, 0.7);
+        box-shadow: 0px 10px 40px -10px rgba(0, 0, 0, 0.7);;
+    }
+
+    .box{
+        position: relative;
+        margin: 20px;
+        margin-bottom: 100px;
+    }
+     
+
+  
+    .myLeftCtn .myInput{
+        width:200px;
+        border-radius: 25px;
+        padding: 10px;
+        border: none;
+        margin-right: 16px;
+        margin-bottom: 12px;
+        -webkit-box-shadow: 0px 10px 40px -8px rgba(0, 0, 0, 0.7);
+        -moz-box-shaodw: 0px 8px 40px -8px rgba(0, 0, 0, 0.7);
+        box-shadow: 0px 8px 40px -8px rgba(0, 0, 0, 0.7);
+    }
+
+    .myLeftCtn .myInput:focus{
+    outline: none;
+    }
+   
+    .myForm{
+        position: relative;
+        margin-top: 50px;
+    }
+
+.btn{
+    margin: 12px;
+    
+}
+
+
+    input[type='file']{
+        display: none;
+      }
